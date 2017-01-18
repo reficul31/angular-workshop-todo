@@ -1,7 +1,6 @@
 angular.module('todoApp',[])
 .controller('todoCtrl', function($scope){
-	$scope.title = 'Something';
-	$scope.todoList = ['Somthing']
+	$scope.todoList = ['Code Like Crazy', 'Learn Angular', 'Become Rich']
 	$scope.todoAdd = function(w){
 		$scope.todoList.push($scope.newTodo);
 		$scope.newTodo = "";
