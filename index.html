@@ -26,8 +26,9 @@
 
 
 <div class="checkbox" ng-repeat='todo in todoList'>
+  <span class='glyphicon glyphicon-remove pull-right' ng-click='removeTodo(todo)'></span>
   <label>
-    <input type="checkbox" ng-model='todo.done'><span class='done-{{todo.done}}'>{{todo.text}}</span><span class='glyphicon glyphicon-remove' ng-click='removeTodo(todo)'></span>
+    <input type="checkbox" ng-model='todo.done'><span class='done-{{todo.done}}'>{{todo.text}}</span>
   </label>
 </div>
 
