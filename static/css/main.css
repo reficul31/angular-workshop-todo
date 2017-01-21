@@ -8,3 +8,9 @@
 .done-false{
 	color:red;
 }
+.todo{
+	border: 1px solid black;
+	border-radius: 10px;
+	font-size:1.5em;
+	padding:1%;
+}
